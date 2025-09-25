@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SLUview</title>
+  <link rel="stylesheet" href="slu.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">SV</div>
+      <div class="titles">
+        <h1>SLUview</h1>
+        <p class="subtitle">Find food you’ll love around St. Louis</p>
+      </div>
+    </div>
+
+    <form class="searchbar" role="search" aria-label="Search businesses">
+      <input type="text" placeholder="Search cuisine, place, dish…" aria-label="Search" />
+      <button type="button">Search</button>
+    </form>
+  </header>
+
+  <main class="layout">
+    <!-- Column A: Filters / Nav -->
+    <aside class="col col-a">
+      <h2>Filters</h2>
+
+      <div class="card filter-card">
+        <h3>Category</h3>
+        <div class="chips">
+          <button>Indian</button>
+          <button>Café</button>
+          <button>Bakery</button>
+          <button>Thai</button>
+          <button>Pizza</button>
+        </div>
+      </div>
+
+      <div class="card filter-card">
+        <h3>Price</h3>
+        <div class="chips">
+          <button>$</button>
+          <button>$$</button>
+          <button>$$$</button>
+        </div>
+      </div>
+
+      <div class="card filter-card">
+        <h3>Rating</h3>
+        <div class="chips">
+          <button>★★★★★</button>
+          <button>★★★★☆</button>
+          <button>★★★☆☆</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Column B: Featured Businesses -->
+    <section class="col col-b">
+      <h2>Featured Businesses</h2>
+
+      <article class="card biz-card">
+        <header>
+          <h3>Signature India</h3>
+          <span class="badge">Indian</span>
+        </header>
+        <p class="meta">
+          <span>Manchester, MO</span> • <span class="price">$$</span> •
+          <span class="stars" aria-label="4 out of 5">★★★★☆</span>
+        </p>
+        <p class="blurb">Authentic Indian dishes with generous portions and fast, friendly service.</p>
+      </article>
+
+      <article class="card biz-card">
+        <header>
+          <h3>Lotus Bakery</h3>
+          <span class="badge">Bakery</span>
+        </header>
+        <p class="meta">
+          <span>Kirkwood, MO</span> • <span class="price">$</span> •
+          <span class="stars" aria-label="4 out of 5">★★★★☆</span>
+        </p>
+        <p class="blurb">Morning pastries, masala chai, and seasonal specials. Cozy neighborhood favorite.</p>
+      </article>
+
+      <article class="card biz-card">
+        <header>
+          <h3>Blue Cup Café</h3>
+          <span class="badge">Café</span>
+        </header>
+        <p class="meta">
+          <span>Maplewood, MO</span> • <span class="price">$$</span> •
+          <span class="stars" aria-label="4 out of 5">★★★★☆</span>
+        </p>
+        <p class="blurb">Brunch with locally sourced ingredients and sunny patio seating.</p>
+      </article>
+    </section>
+
+    <!-- Column C: Latest Reviews -->
+    <section class="col col-c">
+      <h2>Latest Reviews</h2>
+
+      <article class="card review-card">
+        <header>
+          <h3>Matt J. <span class="stars" aria-label="4 out of 5">★★★★☆</span></h3>
+          <time class="date">Jul 13, 2025</time>
+        </header>
+        <p>Great location if you’re looking for butter chicken with garlic naan. The service was quick and easy. I will be a returning customer for lunch.</p>
+      </article>
+
+      <article class="card review-card">
+        <header>
+          <h3>Cameron W. <span class="stars" aria-label="5 out of 5">★★★★★</span></h3>
+          <time class="date">Sep 2, 2025</time>
+        </header>
+        <p>Best spot in TOWN. Tons of dessert options as well, got the Butter Chicken that comes with jasmine rice, portions are huge! Got the garlic naan as well — very good. Service was fast, exceptional, and very welcoming.</p>
+      </article>
+
+      <article class="card review-card">
+        <header>
+          <h3>Ken B. <span class="stars" aria-label="4 out of 5">★★★★☆</span></h3>
+          <time class="date">Aug 6, 2024</time>
+        </header>
+        <p>Really decent Indian food. I particularly enjoyed that it was not watered down like some other restaurants we’ve been to. A nice experience and nice people.</p>
+      </article>
+
+      <article class="card review-card">
+        <header>
+          <h3>Andrea S. <span class="stars" aria-label="5 out of 5">★★★★★</span></h3>
+          <time class="date">Feb 14, 2024</time>
+        </header>
+        <p>Came here for Valentine’s Day. They had a dinner for 2 for $39.99 covering drinks, appetizers, entrées, and desserts. Great value and very tasty. Spicy but flavorful — very nice.</p>
+      </article>
+
+      <article class="card review-card">
+        <header>
+          <h3>Brian B. <span class="stars" aria-label="5 out of 5">★★★★★</span></h3>
+          <time class="date">Aug 10, 2025</time>
+        </header>
+        <p>My favorite Indian place for takeout in town! Great staff, great food, prices on par with competitors. Would recommend!</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© SLUview</p>
+  </footer>
+</body>
+</html>
